@@ -67,7 +67,7 @@ aws configure
 #Finally 
 mlflow server -h 0.0.0.0 --default-artifact-root s3://mlflow-tracking-buc25 --allowed-hosts *
 
-##  Or allow both >>>>> remove  s from https(use http)
+##  Or allow both 
 mlflow server \
   --host 0.0.0.0 \
   --port 5000 \
@@ -75,6 +75,9 @@ mlflow server \
   --allowed-hosts ec2-18-208-192-227.compute-1.amazonaws.com,ec2-18-208-192-227.compute-1.amazonaws.com:5000
 
 #open Public IPv4 DNS to the port 5000
+
+>>>>> remove  s from https(use http)
+in brower open  http://ec2-18-208-192-227.compute-1.amazonaws.com:5000/
 
 
 #set uri in your local terminal and in your code 
