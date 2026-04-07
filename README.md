@@ -80,8 +80,10 @@ mlflow server \
 in brower open  http://ec2-18-208-192-227.compute-1.amazonaws.com:5000/
 
 
-#set uri in your local terminal and in your code 
-export MLFLOW_TRACKING_URI=http://ec2-54-147-36-34.compute-1.amazonaws.com:5000/
+#set uri in your local terminal and in your code
+
+export MLFLOW_SERVER_CORS_ALLOWED_ORIGINS="http://ec2-18-208-192-227.compute-1.amazonaws.com:5000"
+####export MLFLOW_TRACKING_URI=http://ec2-54-147-36-34.compute-1.amazonaws.com:5000/
 ```
 
 
