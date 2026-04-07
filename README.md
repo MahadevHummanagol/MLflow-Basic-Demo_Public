@@ -1,10 +1,10 @@
 # MLflow-Basic-Demo_Public
 
 
+<img width="917" height="638" alt="Screenshot 2026-04-07 at 9 14 06 PM" src="https://github.com/user-attachments/assets/91fecb36-d42f-4f8c-8570-9ccffd103347" />
+
+
 # MLflow-Basic-Demo
-
-
-
 ## For Dagshub:
 
 MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/MLflow-Basic-Demo.mlflow \
