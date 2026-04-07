@@ -65,7 +65,14 @@ aws configure
 
 
 #Finally 
-mlflow server -h 0.0.0.0 --default-artifact-root s3://mlflow-tracking-buc25 --allowed-hosts *
+export MLFLOW_SERVER_CORS_ALLOWED_ORIGINS="*"
+
+mlflow server \
+  --host 0.0.0.0 \
+  --port 5000 \
+  --default-artifact-root s3://mlflow11s311bucket \
+  --allowed-hosts "*" \
+  --disable-security-middleware
 
 ##  Or allow both 
 mlflow server \
