@@ -67,6 +67,13 @@ aws configure
 #Finally 
 mlflow server -h 0.0.0.0 --default-artifact-root s3://mlflow-tracking-buc25 --allowed-hosts *
 
+##  Or allow both >>>>> remove  s from https(use http)
+mlflow server \
+  --host 0.0.0.0 \
+  --port 5000 \
+  --default-artifact-root s3://mlflow11s311bucket \
+  --allowed-hosts ec2-18-208-192-227.compute-1.amazonaws.com,ec2-18-208-192-227.compute-1.amazonaws.com:5000
+
 #open Public IPv4 DNS to the port 5000
 
 
