@@ -1,0 +1,25 @@
+# Virtual Environment
+mlopSenv/
+venv/
+
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ML models
+*.pkl
+*.pt
+*.pth
+
+# Data
+*.csv
+
+# MLflow
+mlruns/
+
+# OS
+.DS_Store
